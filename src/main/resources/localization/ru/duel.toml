@@ -3,37 +3,37 @@ duelWithDifferentBot = [
     "Выбери себе в противники кого-нибудь поживее!" # TODO здесь можно добавить рандомный пинг игрока
 ]
 duelWithThisBot = [
-    "Не советую начинать драку с персоналом! Иначе в твоём пиве может оказаться специальная пенка от официанта"
+    "Не советую начинать драку с персоналом! Иначе в твоем пиве может оказаться специальная пенка от официанта."
 ]
 duelWithYourself = "Нельзя устроить дуэль с самим собой!"
 duelWithInitiatorNotEnoughMoney = [
-    "Воу! Чтобы воспользоваться ареной тебе нужно хотя бы ${money_icon}${money_count}. Иди поработай для начала",
+    "Воу! Чтобы воспользоваться ареной, тебе нужно хотя бы ${money_icon}${money_count}. Иди поработай для начала.",
     "Вход в арену стоит ${money_icon}${money_count}, иди работать!",
-    "Бой - привелегия богатых, а не бедных. Накопи ${money_icon}${money_count} и возвращайся.",
+    "Бой — привелегия богатых, а не бедных. Накопи ${money_icon}${money_count} и возвращайся.",
     "Кажется, этот бой тебе не по карману! Необходимо ${money_icon}${money_count}."
 ]
-personageAlreadyStartDuel = "Вы уже начали другую дуэль! Дождитесь ей окончания."
+personageAlreadyStartDuel = "Уже начата другая дуэль! Дождись ее окончания."
 initDuel = [
     """\
 Искатель ${initiating_personage_icon_with_name} вызывает на дуэль \
 искателя ${accepting_personage_icon_with_name}.
 
-Каким будет его ответ?""",
+Каким будет ответ?""",
     """\
 От ${initiating_personage_icon_with_name} прилетела перчатка в лицо \
 ${accepting_personage_icon_with_name}!""",
     "Возми себя в руки, ${accepting_personage_icon_with_name}, и прими вызов от ${initiating_personage_icon_with_name}!",
     "${initiating_personage_icon_with_name} явно намеревается дать по щам ${accepting_personage_icon_with_name}!",
     """\
-Гоп стоп! ${accepting_personage_icon_with_name} стопанули за углом таверны! ${initiating_personage_icon_with_name} \
-- серьезная персона и не собирается церемониться на дуэли! """,
+Гоп-стоп! ${accepting_personage_icon_with_name} стопанули за углом таверны! ${initiating_personage_icon_with_name} \
+— серьезная персона и не собирается церемониться на дуэли! """,
 ]
-notDuelAcceptingPersonage = "Это не вас вызвали на дуэль!"
+notDuelAcceptingPersonage = "Это не тебя вызвали на дуэль!"
 expiredDuel = [
-    "Вызов на дуэль остался проигнорированным",
-    "${accepting_personage_icon_with_name}: Хочу иду на дуэль, хочу не иду, мне вообще пофиг!",
-    "${accepting_personage_icon_with_name} не может выйти на дуэль. Позовите позднее.",
-    "${accepting_personage_icon_with_name} наказала мама. Пока полы не будут помыты - дуэли не будет!",
+    "Вызов на дуэль остался проигнорированным.",
+    "${accepting_personage_icon_with_name}: «Хочу иду на дуэль, хочу не иду, мне вообще пофиг!»",
+    "${accepting_personage_icon_with_name} не может выйти на дуэль. Позови попозже.",
+    "${accepting_personage_icon_with_name} наказала мама. Пока полы не будут помыты — никаких дуэлей!",
 ]
 declinedDuel = [
     "Принимающая сторона отклонила вызов!",
@@ -43,7 +43,7 @@ finishedDuel = [
     """\
 Искатель ${winner_personage_icon_with_name} одержал верх над \
 ${looser_personage_icon_with_name}""",
-    "${looser_personage_icon_with_name} размазали тонким слоем по брущатке!",
+    "${looser_personage_icon_with_name} размазали тонким слоем по брусчатке!",
     "Бой окончен! ${winner_personage_icon_with_name} явно сильнее ${looser_personage_icon_with_name}!",
     "Во время дуэли ${winner_personage_icon_with_name} легким движением руки отправляет спать ${looser_personage_icon_with_name}!",
     "В следующий раз ${looser_personage_icon_with_name} подумает дважды, прежде чем драться с ${winner_personage_icon_with_name}.",
